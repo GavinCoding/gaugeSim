@@ -1,0 +1,71 @@
+@font-face {
+    font-family: 'Digital-7';
+    src: url('fonts/digital-7.mono.ttf');
+}
+
+body {
+    position: relative;
+    display: flex; 
+    justify-content: center;
+    align-items: flex-end;
+    height: 100vh;
+    margin: 0;
+    background-color: black;
+}
+
+#temperature{
+    font-family: 'Digital-7',sans-serif;
+    font-size: 10vh;
+    color: #39FF14;
+    background-color: black;
+    position: absolute;
+    top: 80vh;
+    left: 10vh;
+    width: 22vh;
+    padding: 20px;
+    text-align: center;
+    display: flex;
+    align-items: flex-end;
+    cursor: pointer;
+}
+#degreesF {
+
+    display: inline-block;
+    font-size: 3vh;
+    margin-bottom: auto;
+    
+}
+
+
+#attitude{
+   position: absolute;
+   bottom: 20vh;
+   left: 5vw;
+    
+}
+#airspeed{
+    position: absolute;
+    bottom: 0vh;
+    left: 20vw;
+    
+}
+#altimeter{
+    position: absolute;
+    bottom: 0vh;
+    left: 37vw;
+}
+#turn_coordinator{
+    position: absolute;
+    bottom: 0vh;
+    left: 55vw;  
+}
+#heading{
+    position: absolute;
+    bottom: 0vh;
+    left: 72vw;
+}
+#variometer{
+    position: absolute;
+    bottom: 20vh;
+    left: 85vw;
+}
